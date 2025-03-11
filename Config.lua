@@ -1,7 +1,7 @@
 Config = {}
 Config.distance = 1.5
 Config.Car = "comet2"
-Config.Plate = "ELECTRIC"
+Config.Plate = "EPS-XXX"
 Config.framework = "esx" -- Esx or qbcore, easy to adapt to your framework.
 
 Config.Pay = math.random(1000,4000)
@@ -17,17 +17,17 @@ Config.postes = {
 Config.TiempoParaArreglar = 6  -- Segundos
 
 Config.Locales = {
-	iniciarrepa = "PRESIONA  ~b~Y~w~  PARA INICIAR LA REPARACION",
-	ponerescalera = "PRESIONA  ~b~Y~w~  PARA COLOCAR LA ESCALERA",
-	sacarescalera = "PRESIONA  ~b~Y~w~  PARA COGER LA ESCALERA",
-	espera = "Espera ~b~ ", -- ..seconds 
-	tofinish = "~w~ segundos para terminar de reparar.",
-	startjob = "PRESIONA  ~b~E~w~  PARA INICIAR EL TRABAJO",
-	jobiniciado = "Trabajo iniciado, ve a un estacionamiento.",
-	endjob = "PRESSIONE  ~b~E~w~  PARA TERMINAR EL TRABAJO",
-	jobterminado = "Terminaste tu trabajo, te espero otro dia!",
-	saveescalera = "PRESIONA  ~b~E~w~  PARA GUARDAR LA ESCALERA",
-	cogerescala = "PRESIONA  ~b~E~w~  PARA COGER LA ESCALERA"
+    iniciarrepa = "Appuyez sur  ~b~Y~w~  pour commencer la réparation",
+    ponerescalera = "Appuyez sur  ~b~Y~w~  pour placer l'échelle",
+    sacarescalera = "Appuyez sur  ~b~Y~w~  pour prendre l'échelle",
+    espera = "Attendez ~b~ ", -- ..seconds 
+    tofinish = "~w~ secondes pour terminer la réparation.",
+    startjob = "Appuyez sur  ~b~E~w~  pour commencer le travail",
+    jobiniciado = "Travail commencé, allez à un parking.",
+    endjob = "Appuyez sur  ~b~E~w~  pour terminer le travail",
+    jobterminado = "Vous avez terminé votre travail, à bientôt un autre jour !",
+    saveescalera = "Appuyez sur  ~b~E~w~  pour ranger l'échelle",
+    cogerescala = "Appuyez sur  ~b~E~w~  pour prendre l'échelle"
 }
 
 
