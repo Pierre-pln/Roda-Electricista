@@ -1,6 +1,5 @@
 if Config.framework == 'esx' then 
-    ESX = nil
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+ESX = exports["es_extended"]:getSharedObject()
 RegisterServerEvent('Roda-Electricista:PayJob')
 AddEventHandler('Roda-Electricista:PayJob', function(money, can)
     local src = source
